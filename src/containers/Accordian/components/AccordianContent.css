@@ -1,0 +1,5 @@
+.react__content{
+    padding: 2rem;
+    max-width: 500px;
+    color: var(--color-grey);
+}
