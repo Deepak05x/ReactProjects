@@ -22,8 +22,12 @@ a {
   text-decoration: none;
 }
 
-body{
-  background: var(--color-black);
+#bg__color{
+  background-image: url("../src/assets/bg.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ::-webkit-scrollbar {

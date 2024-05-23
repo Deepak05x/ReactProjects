@@ -11,7 +11,7 @@ const Accordian = () => {
 
 
   return (
-    <div className='react__accordian'>
+    <div className='react__accordian' id='bg__color'>
         <div className='react__accordian-container'>
             <div className='react__accordian-container_heading' onClick={()=> setToggleMain(!toggleMain)}>
                 <h1 >Multi-Section Accordian</h1>
