@@ -1,0 +1,30 @@
+.react__star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    row-gap: 4rem;
+}
+
+.react__star h1{
+    color: var(--color-golden);
+    font-size: 80px;
+    font-weight: 400;
+    font-family: var(--font-heading);
+}
+
+.react__star-icons{
+    font-size: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.active{
+    color: var(--color-golden);
+}
+
+.notActive{
+    color: gray;
+}

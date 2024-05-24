@@ -14,6 +14,10 @@ const Random = () => {
         else generateHexColor()
     },[typeofColor])
 
+    useEffect(()=>{
+        setColors("#0C0C0C")
+    },[])
+
     const randomColorUtility = (length)=>{
         return Math.floor(Math.random() * length)
     }
