@@ -6,6 +6,8 @@
     width: 100%;
     height: 100vh;
     row-gap: 4rem;
+    border-bottom: 2px dashed var(--color-grey);
+    background: var(--color-black);
 }
 
 .react__star h1{

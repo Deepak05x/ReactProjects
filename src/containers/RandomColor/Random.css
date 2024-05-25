@@ -8,6 +8,7 @@
     width: 100%;
     row-gap: 10rem;
     transition: all 0.5s ease;
+    border-bottom: 2px dashed var(--color-grey);
 }
 
 .react__random h1{

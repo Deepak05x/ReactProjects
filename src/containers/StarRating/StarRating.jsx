@@ -8,19 +8,16 @@ const StarRating = ({ noOfStars = 5 }) => {
   const [hover, setHover] = useState(undefined);
 
   const handleClick = (getCurrentIndex) => {
-    console.log("Clicked on star:", getCurrentIndex);
     setRating(getCurrentIndex);
   };
 
   const handleMouseEnter = (getCurrentIndex) => {
-    console.log("Hovered over star:", getCurrentIndex);
     setHover(getCurrentIndex);
   };
 
-  const handleMouseLeave = () => {
-    console.log("Mouse left");
-    setHover(undefined);
-  };
+   const handleMouseLeave = () => {
+     setHover(undefined);
+   };
 
   useEffect(()=>{
     setHover(undefined)
@@ -28,7 +25,7 @@ const StarRating = ({ noOfStars = 5 }) => {
   },[])
 
   return (
-    <div className="react__star" id="bg__color">
+    <div className="react__star">
       <h1>Star Rating</h1>
       <div className="react__star-icons">
         {[...Array(noOfStars)].map((_, index) => {
@@ -39,7 +36,7 @@ const StarRating = ({ noOfStars = 5 }) => {
               key={index}
               onClick={() => handleClick(index)}
               onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={handleMouseLeave}
+              onMouseLeave={()=> handleMouseLeave()}
             />
           );
         })}

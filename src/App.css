@@ -8,6 +8,7 @@
   --color-white: #FFFFFF;
   --font-heading : "Noto Sans", sans-serif;
   --font-para : "Open Sans", sans-serif;
+  --color-gold : #ffd700
 }
 
 *{
@@ -20,6 +21,7 @@
 a {
   color: unset;
   text-decoration: none;
+  color: gol;
 }
 
 #bg__color{
