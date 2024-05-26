@@ -24,6 +24,10 @@ a {
   color: gol;
 }
 
+body{
+  background-color: var(--color-black);
+}
+
 #bg__color{
   background-image: url("../src/assets/bg.png");
   background-position: center;
