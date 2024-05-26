@@ -8,7 +8,8 @@
     margin-top: 8rem;
     background-color: var(--color-black);
     padding: 1rem 3rem;
-    row-gap: 10rem;
+    row-gap: 8rem;
+    border-bottom: 2px dashed var(--color-grey);
    
 }
 
@@ -65,4 +66,21 @@
     font-weight: 500;
     font-family: var(--font-heading);
     word-spacing: .2rem;
+}
+
+.react__loadmore-btn_reset{
+    background-color: var(--color-golden);
+    height: 75px;
+    width: 150px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.react__loadmore-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 7rem;
+    margin-bottom: 5rem;
 }

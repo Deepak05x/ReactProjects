@@ -40,11 +40,13 @@ const LoadMore = ({url}) => {
            
         ))}
         </div>
+        <div className='react__loadmore-footer'>
         {limit < 101 
         ? <button className='react__loadmore-btn' onClick={()=>handleClick(limit)}>Load More</button>
         : <p className='react__loadmore-btn_msg'>Reached the limit</p>
         }
-        
+        <button className='react__loadmore-btn_reset'>Reset</button>
+        </div>
     </div>
   )
 }
