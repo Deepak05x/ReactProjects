@@ -1,0 +1,80 @@
+.react__code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    row-gap: 8rem;
+    margin-top: 10rem;
+    border-bottom: 2px dashed var(--color-grey);
+}
+
+.react__code h1{
+    color: var(--color-golden);
+    font-size: 50px;
+    font-family: var(--font-heading);
+    font-weight: 500;
+}
+
+.react__code-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+
+.react__code-input input{
+    width: 350px;
+    height: 45px;
+    padding: 2rem;
+    font-size: 25px;
+    background-color: var(--color-black);
+    outline: none;
+    border: 1px solid var(--color-golden);
+    color: var(--color-golden);
+}
+
+.react__code-input button{
+    width: 120px;
+    height: 45px;
+    background-color: var(--color-black);
+    outline: none;
+    border: 1px solid var(--color-golden);
+    color: var(--color-golden);
+    transition: all 0.5s ease;
+    font-size: 20px;
+    padding: 0.2rem;
+}
+
+.react__code-input button:hover{
+    background-color: var(--color-golden);
+    color: var(--color-black);
+}
+
+.react__code-output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5rem; 
+    margin-bottom: 5rem;   
+}
+
+.react__code button{
+    width: 120px;
+    height: 55px;
+    background-color: var(--color-black);
+    outline: none;
+    border: 1px solid var(--color-golden);
+    color: var(--color-golden);
+    transition: all 0.5s ease;
+    font-size: 20px;
+    padding: 0.2rem;
+}
+
+.react__code button:hover{
+    background-color: var(--color-golden);
+    color: var(--color-black);
+}

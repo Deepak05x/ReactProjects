@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useState, useCallback } from 'react'
 import { useEffect } from 'react'
 import './LoadMore.css'
+import { useLayoutEffect } from 'react'
 
 const LoadMore = ({url}) => {
 
@@ -9,7 +10,7 @@ const LoadMore = ({url}) => {
     const [error, setError] = useState(null)
     const [limit, setLimit] = useState(20)
 
-    useEffect(()=>{
+    useLayoutEffect(()=>{
         if(url != ' ') fetchImages(url)
     },[url,limit])
 
@@ -39,6 +40,11 @@ const LoadMore = ({url}) => {
   return (
     <div className='react__loadmore'>
         <h1>Load More Data</h1>
+        {error && (
+            <div className='react__loadmore-error'>
+                <h2>{error}</h2>
+            </div>
+        )}
         <div className='react__loadmore-container'>
         {images.map((img,index)=>(
             <div className='react__loadmore-container_elements'>

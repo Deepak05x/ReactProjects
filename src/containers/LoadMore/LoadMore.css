@@ -13,6 +13,13 @@
    
 }
 
+.react__loadmore-error{
+    color: red;
+    font-family: var(--font-para);
+    font-size: 30px;
+    font-weight: 400;
+}
+
 .react__loadmore h1{
     color: var(--color-golden);
     font-family: var(--font-heading);
