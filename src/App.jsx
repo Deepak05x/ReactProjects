@@ -7,6 +7,7 @@ import LoadMore from './containers/LoadMore/LoadMore'
 import QRCodeGenerator from './containers/QRCode/QRCodeGenerator'
 import ThemeChanger from './containers/ThemeChanger/ThemeChanger'
 import Github from './containers/Github/Github'
+import SearchFilter from './containers/SearchFilter/SearchFilter'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <QRCodeGenerator />
       <ThemeChanger /> 
       <Github url={'https://api.github.com/users'}/>
+      <SearchFilter />
     </>
   )
 }

@@ -8,6 +8,7 @@
     padding: 5rem;
     row-gap: 8rem;
     margin-top: 8rem;
+    border-bottom: 2px dashed var(--color-grey);
 }
 
 .react__github h1{
