@@ -5,6 +5,7 @@ import StarRating from "../src/containers/StarRating/StarRating"
 import ImageSlider from './containers/ImageSlider/ImageSlider'
 import LoadMore from './containers/LoadMore/LoadMore'
 import QRCodeGenerator from './containers/QRCode/QRCodeGenerator'
+import ThemeChanger from './containers/ThemeChanger/ThemeChanger'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <ImageSlider url={'https://picsum.photos/v2/list/'} limit={'15'}/> 
       <LoadMore url={'https://picsum.photos/v2/list?page=2'} />
       <QRCodeGenerator />
+      <ThemeChanger /> 
     </>
   )
 }

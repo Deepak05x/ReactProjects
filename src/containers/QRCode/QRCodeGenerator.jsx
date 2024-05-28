@@ -19,6 +19,7 @@ const QRCodeGenerator = () => {
 
     const handleCode = ()=>{
       setCode(input)
+      setInput('')
     }
 
     const handleDownload = ()=>{
