@@ -12,6 +12,9 @@ const ThemeChanger = () => {
     setTheme((prevTheme)=> prevTheme === 'light' ? 'dark' : 'light')
   }
 
+  useEffect(()=>{
+    setTheme('dark')
+  },[])
 
   return (
     <div className={`react__theme ${
