@@ -8,6 +8,7 @@ import QRCodeGenerator from './containers/QRCode/QRCodeGenerator'
 import ThemeChanger from './containers/ThemeChanger/ThemeChanger'
 import Github from './containers/Github/Github'
 import SearchFilter from './containers/SearchFilter/SearchFilter'
+import Popup from './containers/PopUp/Popup'
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
       <ThemeChanger /> 
       <Github url={'https://api.github.com/users'}/>
       <SearchFilter />
+      <Popup />
     </>
   )
 }
